@@ -3,12 +3,34 @@
 body{
     font-family: 'Poppins', sans-serif;
     background: #F3F1FF;
+    margin: 0;
+}
+/* navigation bar section */
+.navigation{
+    background-color: #562EFF;
+    width: 100%;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    color: white;
+    padding-left: 285px;
+}
+.links{
+    padding-right: 285px;
+}
+.top-link{
+    color: white;
+    padding-left: ;
 }
 
 /* top playeras style section   */
 .main-section{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .top-word{
     font-size: 24px;
@@ -79,4 +101,42 @@ hr{
     font-size: 20px;
     font-weight: 500;
     margin: 0;
+}
+/* course style section  */
+.course-section{
+    width: 870px;
+    height: 362px;
+    padding: 33px;
+    background-color: #FFFFFF;
+    margin-top: 21px;
+    border-radius: 5px;
+}
+.course{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+.course-image{
+    width: 224px;
+    height: 104px;
+}
+.course-link{
+    text-decoration: none;
+    color: tomato;
+}
+.spacal{
+    color: rgb(255, 200, 60);
+}
+.course-reating-and-time{
+    display: flex;
+    justify-content: space-between;
+}
+.course-item{
+    width: 253px;
+    height: 270px;
+    margin: 11.5px;
+    padding: 13px;
+    border-radius: 10px;
+    box-shadow: 0.1px 0.1px 10px rgba(204, 204, 204, 0.336);
 }
