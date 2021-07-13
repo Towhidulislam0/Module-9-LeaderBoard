@@ -18,12 +18,23 @@ body{
     color: white;
     padding-left: 285px;
 }
+.light{
+    font-size: 50px;
+}
+.idea{
+    font-size: 24px;
+    padding-left: 16px;
+}
 .links{
     padding-right: 285px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
 }
 .top-link{
+    text-decoration: none;
     color: white;
-    padding-left: ;
+    padding-left: 36px;
 }
 
 /* top playeras style section   */
@@ -128,9 +139,24 @@ hr{
 .spacal{
     color: rgb(255, 200, 60);
 }
+.normal{
+    color: rgba(146, 146, 146, 0.37);
+}
 .course-reating-and-time{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.course-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFE4E8;
+    width: 95px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 15px;
+    color:#FF4A60 ;
 }
 .course-item{
     width: 253px;
